@@ -18,3 +18,9 @@ We're using [React Router](https://github.com/ReactTraining/react-router), aaaaa
 - A **Route** should be considered a **page**
 - A **Link** you use to navigate between **Routes**
 - `this.props.children` is the place where your page is built, same as `ng-view` on angularjs
+
+## Pages
+
+- Home: http://localhost:8080/
+- Page 1: http://localhost:8080/page1
+- Page 2: http://localhost:8080/page2
