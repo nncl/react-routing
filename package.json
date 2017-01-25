@@ -1,7 +1,7 @@
 {
-  "name": "react-skeleton",
+  "name": "react-routing",
   "version": "0.0.1",
-  "description": "React Skeleton",
+  "description": "React Routing",
   "main": "index.js",
   "scripts": {
     "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
@@ -20,8 +20,10 @@
   "dependencies": {
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
-    "react": "^15.4.1",
+    "history": "^1.13.1",
+    "react": "^15.4.2",
     "react-dom": "^15.4.1",
+    "react-router": "^3.0.2",
     "watchify": "^3.8.0"
   }
 }

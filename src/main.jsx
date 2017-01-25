@@ -1,6 +1,6 @@
 var React = require('react')
-    , ReactDOM = require('react-dom')
-    , List = require('./components/List.jsx');
+    , ReactDOM = require('react-dom'),
+    Routes = require('./Routes.jsx');
 
 // render into screen
-ReactDOM.render(<List/>, document.getElementById('l-ingredients'));
+ReactDOM.render(Routes, document.getElementById('l-container'));
