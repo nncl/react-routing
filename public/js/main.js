@@ -25341,7 +25341,9 @@ process.umask = function() { return 0; };
 
 var React = require('react'),
     ReactRouter = require('react-router'),
-    // package
+    // packaged
+browserHistory = ReactRouter.browserHistory,
+    // packaged
 Router = ReactRouter.Router,
     Route = ReactRouter.Route,
     // For a specific page
@@ -25352,7 +25354,7 @@ Base = require('./components/Base.jsx'),
 // Let's create a header that appears on every page
 var Routes = React.createElement(
     Router,
-    null,
+    { history: browserHistory },
     React.createElement(
         Route,
         { path: '/', component: Base },
