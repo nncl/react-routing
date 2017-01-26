@@ -22,3 +22,9 @@ We're using [React Router](https://github.com/ReactTraining/react-router), aaaaa
 ### About hashing
 
 History is running behind the scenes. So let's disable `#` hash from URL.
+
+## Pages
+
+- Home: #/
+- Page 1: #/page1
+- Page 2: #/page2
